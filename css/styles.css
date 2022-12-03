@@ -194,6 +194,8 @@ img {
 .modal-button {
     background-color: var(--primary-brand-color);
     color: var(--white-color);
+    border: none;
+    border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     font-family: inherit;
@@ -208,13 +210,13 @@ img {
     display: inline-block;
     min-width: 170px;
     padding: 16px 32px;
-    border: none;
-    border-radius: 4px;
+    gap: 10px;
 }
 
 .modal-button:hover,
 .modal-button:focus {
     background-color: #404BBF;
+
 }
 
 /* === Section === */
@@ -336,10 +338,7 @@ img {
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
-}
-
-.filter-item + .filter-item {
-    margin-left: 24px;
+    gap: 24px;
 }
 
 /* === Button === */
